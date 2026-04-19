@@ -1,5 +1,5 @@
 {
-    "name"       : "hoa/console",
+    "name"       : "enojaroff/hoa-console",
     "description": "The Hoa\\Console library.",
     "type"       : "library",
     "keywords"   : ["library", "console", "processus", "getoption", "option",
@@ -25,17 +25,17 @@
         "source": "https://central.hoa-project.net/Resource/Library/Console"
     },
     "require": {
-        "php"            : ">=7.1",
-        "hoa/consistency": "dev-master",
-        "hoa/event"      : "dev-master",
-        "hoa/exception"  : "dev-master",
-        "hoa/file"       : "dev-master",
-        "hoa/protocol"   : "dev-master",
-        "hoa/stream"     : "dev-master",
-        "hoa/ustring"    : "dev-master"
+        "php"                      : ">=8.0",
+        "enojaroff/hoa-consistency": "dev-master",
+        "enojaroff/hoa-event"      : "dev-master",
+        "enojaroff/hoa-exception"  : "dev-master",
+        "enojaroff/hoa-file"       : "dev-master",
+        "enojaroff/hoa-protocol"   : "dev-master",
+        "enojaroff/hoa-stream"     : "dev-master",
+        "enojaroff/hoa-ustring"    : "dev-master"
     },
     "require-dev": {
-        "hoa/test": "dev-master"
+        "enojaroff/hoa-test": "dev-master"
     },
     "autoload": {
         "psr-4": {
